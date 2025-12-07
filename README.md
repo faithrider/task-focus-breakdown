@@ -43,8 +43,25 @@ Interviews with users who experience attention difficulties or executive dysfunc
 - Provides a stable environment for completing one step
 
 ## Screenshots
+This is of the front page where you input the overarching task you're attempting to tackle (clean your room, write a paper, etc.).
+![front page](https://github.com/faithrider/task-focus-breakdown/blob/main/img/screenshots/front-page.png)
 
-insert images here
+This the the main screen to input all the subtasks, with light and dark mode options.
+![task list light mode](https://github.com/faithrider/task-focus-breakdown/blob/main/img/screenshots/task-list-light-mode.png)
+![task list dark mode](https://github.com/faithrider/task-focus-breakdown/blob/main/img/screenshots/task-list-dark-mode.png)
+
+Here is focus mode, where you can spotlight an individual subtask. The default is a classic Pomodoro 25min on, 5min off work cycle for the timer, but it is fully customizable by the minute.
+![focus mode work](https://github.com/faithrider/task-focus-breakdown/blob/main/img/screenshots/focus-mode-work.png)
+
+Once it cycles to the break mode, the background changes so that it's visually distinct from further away.
+![focus mode break](https://github.com/faithrider/task-focus-breakdown/blob/main/img/screenshots/focus-mode-break.png)
+
+## Work Sketches
+![all screens sketch](https://github.com/faithrider/task-focus-breakdown/blob/main/img/sketches/All-screens-sketch.png)
+
+![focus mode sketch](https://github.com/faithrider/task-focus-breakdown/blob/main/img/sketches/Focus-mode-sketch.png)
+
+![task list sketch](https://github.com/faithrider/task-focus-breakdown/blob/main/img/sketches/Task-list-sketch.png)
 
 ## Potential future improvements
 - Additional preset timer modes
