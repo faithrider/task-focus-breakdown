@@ -1,38 +1,56 @@
-# sv
+# Task Focus Breakdown
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Live site: [https://task-focus-breakdown.vercel.app/](https://task-focus-breakdown.vercel.app/)
 
-## Creating a project
+Demo video: insert link here
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Overview
 
-```sh
-# create a new project in the current directory
-npx sv create
+Task Focus Breakdown is a simple interface for dividing large tasks into smaller, workable steps and focusing on one step at a time. The goal is to reduce the cognitive load that comes from seeing an entire project at once and to support users who struggle with task switching and overwhelm. The interface emphasizes clarity, minimal interaction cost, and a straightforward flow from planning to focused work.
 
-# create a new project in my-app
-npx sv create my-app
-```
+## User interviews and findings
 
-## Developing
+Interviews with users who experience attention difficulties or executive dysfunction highlighted several consistent points:
+- Interfaces with many features or visual elements increase distraction and cause avoidance.
+- Breaking large tasks into smaller components is helpful but often mentally tiring to do alone.
+- Users frequently lose focus by shifting between tasks without finishing the one they intended to work on.
+- Timers are useful when optional and lightweight.
+- Visual customization was considered unnecessary compared to a clear, calm layout.
+- A dedicated view that isolates only the current action was identified as the most helpful idea.
+- These findings guided the structure of the prototype.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Key features
+- Task breakdown tree for creating steps and substeps
+- Focus mode that hides all nonessential elements
+- Optional simple timer
+- Automatic progress calculation based on completed steps
+- Local data persistence
+- Minimal layout with limited controls
 
-```sh
-npm run dev
+## Prototype modes and abilities
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+**Builder mode**
+- Create a task and add steps
+- Edit, remove, or nest steps'
+- Mark steps as complete
+- Select a step to work on
+- View automatic progress updates
 
-## Building
+**Focus mode**
+- Only shows the current step, a timer, and an exit option
+- Removes navigation and other elements
+- Designed to reduce visual noise and task switching
+- Provides a stable environment for completing one step
 
-To create a production version of your app:
+## Screenshots
 
-```sh
-npm run build
-```
+insert images here
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Potential future improvements
+- Additional preset timer modes
+- Mobile layout adjustments
+- Optional reminders
+- Cloud sync
+- Accessibility refinements
+- Support for multiple parallel projects
+- More polished transitions
